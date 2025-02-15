@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Platform Calculation</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking to the CSS file for styling -->
+</head>
+
+<body>
+    <div class="container">
+        <h2>Train Platform Calculation</h2>
+
+        <label for="arrivals">Enter Train Arrival Times (comma separated):</label>
+        <input type="text" id="arrivals" placeholder="e.g., 9, 9.40, 9.50, 11, 15, 18">
+
+        <label for="departures">Enter Train Departure Times (comma separated):</label>
+        <input type="text" id="departures" placeholder="e.g., 9.10, 12, 11.20, 11.30, 19, 20">
+
+        <button onclick="findPlatform()">Calculate Minimum Platforms</button>
+
+        <h3 id="result"></h3> <!-- Display the result here -->
+    </div>
+
+    <script src="script.js"></script> <!-- Linking to the external JavaScript file -->
+</body>
+
+</html>
